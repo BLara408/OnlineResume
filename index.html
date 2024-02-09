@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <style>
+        /* Additional CSS to change font for the h2 in #experience */
+        #experience > h2 {
+            font-family: 'Courier New', Courier, monospace; /* Change to your desired font */
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>btlportfolio.me</h1>
+    </div>
+    <section id="about">
+        <div class="about-content">
+            <h1>Software Engineer - Backend</h1>
+            <p>Hi, I'm Brandon Lara. A passionate backend engineer based in San Jose, CA. <span class="icon-pin">📍</span></p>
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/brandon-l-23b3a0142/" target="_blank" class="icon-linkedin"><img src="Images/download.png" alt="LinkedIn"></a>
+                <a href="https://github.com/BLara408" target="_blank" class="icon-github"><img src="Images/github.png" alt="GitHub"></a>
+            </div>
+        </div>
+        <div class="profile-picture">
+            <img src="Images/Screenshot 2024-02-09 121231.png" alt="Your Profile Picture">
+        </div>
+    </section>
+
+    <section id="experience">
+        <h2>Experience</h2>
+        <div class="experience-section">
+            <div class="experience-item">
+                <div class="experience-img">
+                    <img src="Images/download.png" alt="Experience Image">
+                </div>
+                <div class="experience-content">
+                    <h3>Associate Software Engineer <span class="place">San Francisco, CA</span> </h3>
+                    <h3> June 2022- Aug 2023</h3>
+                    <ul>
+                        <li>Contributed to Anaplan’s Distributed Metadata Platform, a REST API application utilizing Spring Boot, Java, Kotlin, PostgreSQL, and Kubernetes solving over 100 tasks.</li>
+                        <li>Created new REST API endpoints for clients using Java, Kotlin, and PostgreSQL, helping clients reduce workload by up to 15 percent.</li>
+                        <li>Conducted comprehensive testing of API responses to ensure accuracy in both XML and JSON formats using Postman in over 20 percent of all endpoints.</li>
+                        <li>Incorporated PACT state tests for multiple endpoints in the application reducing bugs in these endpoints by 35 percent.</li>
+                        <li>Introduced new Splunk and Grafana Dashboards to monitor core metrics of the application allowing for crashes and other errors to be detected 60 percent faster.</li>
+                        <li>Deployed a system utilizing the JaCoCo plugin and JMeter to achieve functional code coverage of controller layers in the application, finding missing test coverage in 15 percent of total controller layers.</li>
+                        <li>Added custom staging to our Jenkins CI/CD pipeline to ensure all new JMeter tests were passing reducing build failures by 12 percent.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio">
+        <h2>Projects</h2>
+        <div class="card">
+            <div class="project-info">
+                <div class="icon-img">
+                    <img src="Images/Portfolio.png" alt="Project Image">
+                </div>
+                <div class="project-content">
+                    <h3>Portfolio Site</h3>
+                    <ul>
+                        <li>Developed a multi-paged portfolio website using ReactJS, making an easy-to-read and functional website.</li>
+                        <li>Used EmailJS API to create an insight form that can send messages straight to email in 40ms.</li>
+                        <li>Added icons linking to social media pages and source code for projects on GitHub, simplifying viewing code and social media.</li>
+                    </ul>
+                    <a href="https://blara408.github.io/" target="_blank"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="card">
