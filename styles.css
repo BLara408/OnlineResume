@@ -1,0 +1,335 @@
+/* styles.css */
+body {
+    font-family: 'Roboto', sans-serif;
+    /* Add other styles */
+    margin: 0;
+    padding: 0;
+    background-color: #fffcfc;
+}
+header {
+    background-color: #ffffff;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* styles.css */
+.header {
+    position: absolute; /* Position the header */
+    top: 10px; /* Distance from the top */
+    left: 10px; /* Distance from the left */
+    z-index: 1000; /* Ensure it's above other content */
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header h1 {
+    font-size: 24px; /* Adjust the font size */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+
+
+#about {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+}
+
+.about-content {
+    flex: 1;
+    font-size: 18px;
+    margin-right: 20px;
+    max-width: 400px; /* Limit the maximum width of the content */
+}
+
+.profile-picture img {
+    width: 250px;
+    height: 350px;
+    border-radius: 15px;
+}
+
+
+.about-content p {
+    color: grey;
+    margin: 0;
+}
+
+
+.container {
+    max-width: 960px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+section {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.card {
+    border: 1px solid #fffefe;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.card h3 {
+    margin-top: 0;
+}
+.card p {
+    margin-bottom: 0;
+}
+.card a {
+    display: inline-block; /* Display the link as a block element */
+    margin-top: 10px; /* Add space between the list items and the link */
+}
+.card a img {
+    width: 24px; /* Set the width of the icon */
+    height: auto; /* Maintain aspect ratio */
+    vertical-align: middle; /* Align the icon vertically */
+    margin-right: 5px; /* Add space between the icon and the text */
+}
+.card a:hover {
+    background-color: #ffffff;
+}
+
+
+
+.project-info {
+    display: flex; /* Display project info as a flex container */
+    align-items: center; /* Align items vertically */
+}
+
+.icon-img img {
+    width: 250px; /* Set the width of the image */
+    height: 200px; /* Set the height of the image */
+    margin-right: 20px; /* Add space between the image and the text */
+    border-radius: 15px; /* Make the image round */
+}
+
+.project-content {
+    flex: 1; /* Allow project content to grow */
+    font-size: 18px; /* Set the font size of the text */
+    color: rgb(0, 0, 0); /* Set the text color */
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.project-content h3 {
+    margin-top: 0; /* Remove default top margin */
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.project-content ul {
+    margin-bottom: 10px; /* Add spacing below the list */
+}
+
+.project-content a img {
+    width: 60px; /* Set the width of the icon */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 5px; /* Add space between the icon and the text */
+    border-radius: 50%; /* Make the icon round */
+}
+
+.project-header{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* styles.css */
+
+
+#experience {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 40px;
+}
+
+
+.experience-head {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.experience-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.experience-img {
+    flex: 0 0 100px; /* Set the width of the image container */
+    margin-right: 20px;
+}
+
+.experience-img img {
+    width: 100%;
+    border-radius: 10px; /* Add rounded corners to the image */
+}
+
+
+
+.experience-content {
+    font-family: 'Courier New', Courier, monospace;
+    flex: 1;
+}
+
+.experience-content h3 {
+    margin-top: 0;
+}
+
+.experience-content p {
+    margin-bottom: 0;
+}
+
+
+
+.place {
+    float: right; /* Align the place to the right */
+}
+.time {
+    float: right; /* Align the place to the right */
+}
+
+.icon-pin {
+    font-size: 16px; /* Adjust the size of the pin icon */
+    vertical-align: top; /* Align the icon vertically with the text */
+    margin-left: 5px; /* Add some space between the text and the icon */
+    display: inline-block; /* Make the icon inline */
+}
+
+
+/* styles.css */
+.icon-linkedin {
+    font-size: 30px; /* Adjust the size of the LinkedIn icon */
+    vertical-align: middle; /* Align the icon vertically with the text */
+    margin-left: 5px; /* Add some space between the icons */
+}
+
+.icon-linkedin img {
+    width: 30px; /* Adjust the width of the LinkedIn icon */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.icon-github {
+    font-size: 25px; /* Adjust the size of the GitHub icon */
+    vertical-align: middle; /* Align the icon vertically with the text */
+    margin-left: 5px; /* Add some space between the icons */
+    margin-left: -5px;
+}
+
+.icon-github img {
+    width: 30px; /* Adjust the width of the GitHub icon */
+    height: 20px; /* Maintain aspect ratio */
+}
+
+.about-content {
+    position: relative; /* Enable positioning */
+}
+
+.social-icons {
+    position: absolute; /* Position the icons */
+    bottom: -50px; /* Space a few rows down from the bottom */
+    left: -10px; /* Align to the left of the paragraph */
+    display: flex; /* Align the icons horizontally */
+}
+
+.social-icons a {
+    margin-right: 10px; /* Add some space between the icons */
+}
+
+
+
+
+/* styles.css */
+#education {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 40px;
+    text-align: left;
+}
+
+.education-info {
+    display: flex;
+    justify-content: space-between; /* Align items on opposite margins */
+    align-items: center; /* Align items vertically */
+}
+
+.education-content {
+    flex: 1;
+}
+
+.education-content h3,
+.dates {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+}
+
+.education-details {
+    font-family: 'Courier New', Courier, monospace;
+    flex: 1;
+    text-align: right; /* Align details to the right */
+}
+
+.degree,
+.city {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+}
+
+.degree {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold; /* Make the degree bold */
+}
+.education-header {
+    font-family: 'Courier New', Courier, monospace; /* Change the font family */
+    /* Add any other styles you want to apply */
+}
+
+
+
+
+
+/* Add your existing CSS styles here */
+
+#skills {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 40px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#skills h2 {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.skills-list {
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    justify-content: space-between;
+}
+
+.skill-category {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.skill-category h3 {
+    margin-bottom: 10px;
+}
+
+.skill-category ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skill-category ul li {
+    margin-bottom: 5px;
+}
